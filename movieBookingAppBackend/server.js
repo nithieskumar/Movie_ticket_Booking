@@ -15,7 +15,7 @@ dotenv.config();
 // Allow multiple origins (for development and production environments)
 const allowedOrigins = [
   'http://localhost:3000', // React dev server
-  'https://cinebook.netlify.app', // Your deployed frontend
+  'https://vercel.com/nithieskumars-projects/movie-ticket-booking/BPN15C4VmMHnzVrnLVEk7o9LY57R', // Your deployed frontend
 ];
 
 const limiter = rateLimit({
